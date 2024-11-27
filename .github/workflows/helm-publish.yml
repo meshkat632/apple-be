@@ -20,7 +20,7 @@ jobs:
 
       - name: Package and Index Charts
         run: |
-          helm repo index . --url https://<username>.github.io/<helm-charts-repo>/
+          helm repo index . --url https://meshkat632.github.io/apple-be/
           git add .
           git commit -m "Update Helm chart index"
           git push origin main
