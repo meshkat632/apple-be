@@ -1,3 +1,5 @@
+key2: "bumlux-v2"
+
 linkerd-trust-anchor:
   key1: value1
   linkerdTrustRoot:
