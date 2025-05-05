@@ -13,7 +13,7 @@ spec:
       releaseName: helm-application
       valueFiles:
         - values.yaml
-        - secrets+age-import:///helm-secrets-private-keys/key.txt?values.secret.sops.yaml
+        - values.secret.sops.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: debug
