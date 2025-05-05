@@ -1,0 +1,26 @@
+config/secret.json
+
+# Exclude all local charts
+**/Chart.lock
+**/charts
+
+# MacOS Finder fingerprint file
+**/.DS_Store
+# idea file
+.idea
+/infra/
+/misc/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+
+# non decrypted file
+**/.decrypted*
+
+# MacOS Finder fingerprint file
+**/.DS_Store
+
+**/.env
+.DS_Store
