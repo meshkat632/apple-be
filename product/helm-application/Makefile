@@ -1,6 +1,6 @@
 # Default values
-RELEASE_NAME ?= linkerd-trust-anchor-basic
-NAMESPACE ?= linkerd
+RELEASE_NAME ?= my-helm-application
+NAMESPACE ?= debug
 VALUES ?= -f values.yaml #-f values.secret.sops.yaml
 
 .PHONY: helm-deploy helm-undeploy template
