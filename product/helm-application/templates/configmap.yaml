@@ -9,7 +9,7 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: my-configmap-v2
+  name: debug-configmap
   namespace: {{ .Release.Namespace }}
 data:
-  key1: "{{ .Values.key2 | quote }}"
+  key1: {{ .Values.key2 | quote }}
